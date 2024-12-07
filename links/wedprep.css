@@ -1,0 +1,18 @@
+
+body{
+    margin: 0;
+    padding: 0;
+  }
+  .pg1{
+    display: flex;
+   flex-wrap: wrap;
+    margin-top: 10%;
+    row-gap: 50px;
+    column-gap: 50px;
+    background-color: ;
+  }
+.pg1 img{
+    height: 300px;
+    width:300px;
+    object-fit: fill;
+}
