@@ -1,0 +1,507 @@
+body{
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+
+}
+.entirepage{
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+}
+.pageone{
+  display: flex;
+  justify-content: center;
+  background-color: #534e55;
+  height: 100vh;
+  width: 100vw;
+}
+.pageone img{
+  height: 95vh;
+  width: 95vw;
+  opacity: .8;
+  margin: 2rem;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+.menuone {
+position: absolute;
+display: flex;
+top: 10%;
+background-color: #d8dbe1;
+padding: 10px;
+width: 60%;
+justify-content: center;
+border-radius: 500px;
+
+}
+.menuone ul{
+list-style-type: none;
+display: flex;
+gap: 20px;
+padding: 0;
+
+}
+.menuone ul li {
+  font-size: 40px;
+  font-family: "Great Vibes" , cursive;
+  text-wrap: nowrap;
+  text-indent: 30px;
+  
+}
+.pagetwo{
+display: flex;  
+padding: 10px;
+background: none;
+gap: 20px;
+height: 100%;
+width: 100%;
+padding: 10px;
+background-color: #534e55;
+}
+
+.pagetwoimgone{
+  height: 100%;
+  width: 65%;
+  border-radius: 80px;
+  padding: 1rem;
+  margin-left: 2rem;
+}
+.pagetwoimgtwo{
+width: 25%;
+height: 100%;
+margin-top: 8rem;
+border: 1px solid white;
+outline: 2px solid black;
+
+}
+.pagethree{
+  width: 100%;
+  height: 100%;
+ display: flex;
+ background-color: #534e55;
+ 
+}
+.pagethreeimgone{
+  height: 95%;
+  width: 95%;
+  padding: 3rem;
+  opacity: .6;
+  border-radius: 7rem;
+
+}
+.pagethreeimgtwo{
+  position: absolute;
+  height: 80%;
+  width:35%;
+  left: 40%;
+  margin-top: 25%;
+  opacity: .8;
+  border-radius: 100px;
+  
+}
+.pagefour{
+  height: 100%;
+  width: 100%;
+  
+  padding: 10px;
+  display: flex;
+  gap: 50px;
+}
+.pagefourhrone{
+width: 20%;
+position: absolute;
+margin-left: 64%;
+margin-top: 18%;
+}
+.pagefourhrtwo{
+width: 20%;
+position: absolute;
+left: 65%;
+margin-top: 45%;
+}
+.pagefourimg{
+  height: 1200px;
+  width: 50%;
+  border-radius: 50px;
+  margin-top: 150px;
+ object-fit: cover;
+}
+.pagefourp{
+font-size: 120px;
+width: 40%;
+text-align: center;
+font-family: "Great Vibes" , cursive;
+color: black;
+opacity: .8;
+margin-top: 20%;
+position: absolute;
+left: 55%;
+border: 1rem solid white;
+outline: 2px solid black;
+}
+.pagefive{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  
+}
+.pagefive hr{
+  border: 2px solid black;
+  width: 40%;
+  position: absolute;
+  margin-top: 5%;
+  left: 10%;
+}
+.pagefiveverse{
+  font-size:80px;
+  width: 50%;
+  margin-top: 7%;
+  position: absolute;
+  text-align: center;
+  font-family: "Great Vibes" , cursive;
+  left: 5%;
+  color: black;
+  
+}
+.pagefiveimg{
+  height: 1200px;
+  width:35%;
+  margin-left: 60%;
+  object-fit: cover;
+  border-radius: 100px;
+  padding: 50px;
+  margin-top: 80px;
+  opacity: .8;
+}
+
+.form1{
+ left: 8%;
+ position: absolute;
+ padding: 20px;
+ padding-top: 0px;
+ border-radius: 10px;
+ background-color: #f1ebe5;
+ width: 45%;
+ height: 70%;
+ text-align: center;
+ font-size: 50px; 
+ margin-top: 16%;
+ opacity: .7;
+}
+.form1 p{
+  font-size: 60px;
+  font-family: "Great Vibes" , cursive;
+  border: 1px solid #423f32;
+  padding:8px;
+}
+#fname{
+  width: 80%;
+  height: 10%;
+  font-family: "Great Vibes" , cursive;
+  font-size: 40px;
+  text-align: center;
+  border-radius: 10px;
+  border-color:burlywood;
+}
+#fphone{
+  width: 80%;
+  height: 10%;
+  font-family: "Great Vibes" , cursive;
+  font-size: 40px;
+  text-align: center;
+  border-radius: 10px;
+  border-color:burlywood;
+}
+#fmessage{
+  width: 80%;
+  height: 25%;
+  font-family: "Great Vibes" , cursive;
+  font-size: 40px;
+  border-radius: 10px;
+  border-color:burlywood;
+}
+#pagefivesubmitbtn{
+ height: 10%; 
+ width: 50%;
+ position: absolute;
+ left: 12%;
+ top: 85%;
+ border-radius: 100px;
+ font-size: 100%;
+ font-family: "Great Vibes" , cursive;
+}
+#pagefiveresetbtn{
+  height: 10%; 
+  width: 25%;
+  position: absolute;
+  left: 63%;
+  top: 85%;
+  border-radius: 100px;
+  font-size: 100%;
+  font-family: "Great Vibes" , cursive;
+ }
+ .pagesix{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: #534e55;
+ }
+.pagesix img{
+width: 35%;
+height: 90%;
+position: absolute;
+left: 60%;
+border-radius: 100px;
+padding: 60px;
+object-fit: cover;
+}
+.pagesix p{
+  font-size: 125px;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  line-height: 150%;
+  font-family: "Great Vibes" , cursive;
+  color: whitesmoke;
+  margin-left: 5%;
+  border: 2px solid;
+  margin-top: 10%;
+}
+.pagesix hr{
+  width: 40%;
+  border: 2px solid whitesmoke;
+  position: absolute;
+  margin-top: 7%;
+  left: 10%;
+ 
+}
+
+@media(min-width: 1400px) and (max-width: 2100px){
+  .pagetwoimgtwo{
+    margin-top: 6rem;
+  }
+ .pagefiveverse{
+  font-size: 55px;
+ } 
+ .pagesix p{
+  font-size: 100px;
+ }
+ .pagesix img{
+  height: 100%;
+ 
+}
+.pagefiveimg{
+  margin-top: 40px;
+ }
+}
+@media(min-width: 1200px) and (max-width: 1410px){
+  .pagetwoimgone{
+    width: 65%;
+    margin-left: 1rem;
+  }
+  .pagetwoimgtwo{
+    margin-top: 6rem;
+    margin-left: -1rem;
+  }
+  .pagefiveverse{
+   font-size: 45px;
+  } 
+  .menuone ul li {
+    font-size: 35px;
+  }
+  .pagesix img{
+    height: 100%;
+    margin-top: 10%;
+  }
+  .pagesix p{
+    font-size: 110px;
+    margin-top: 25%;
+   }
+   .pagesix hr{
+    margin-top: 20%;
+   }
+   .pagesix img{
+    height: 80%;
+    margin-top: 20%;
+   }
+   .pagefourp{
+    font-size: 100px;
+   }
+   .pagefiveimg{
+    margin-top: 30px;
+   }
+  }
+  @media(min-width: 899px) and (max-width: 1210px){
+    .pagetwoimgone{
+      width: 65%;
+      margin-left: 1rem;
+    }
+    .pagetwoimgtwo{
+      margin-top: 5rem;
+      margin-left: -1rem;
+    }
+    .pagesix p{
+      font-size: 80px;
+      margin-top: 30%;
+     }
+     .pagesix hr{
+      margin-top: 25%;
+     }
+     .pagesix img{
+      height: 70%;
+      margin-top: 18%;
+     }
+     .pagefourp{
+      font-size: 4rem;
+     }
+     .pagefourimg{
+      height: 50vh;
+     }
+     .pagefiveverse{
+      font-size: 35px;
+     } 
+     .menuone ul li {
+      font-size: 25px;
+    }
+    .pagethreeimgtwo{
+      height: 60%;
+    }
+    #pagefivesubmitbtn{
+      height: 5%;
+      font-size: 90%;
+      margin-top: 5%;
+    }
+    #pagefiveresetbtn{
+      height: 5%;
+      font-size: 90%;
+      margin-top: 5%;
+    }
+    .pagefiveimg{
+      margin-top: 0px;
+     }
+  }
+  @media(min-width: 700px) and (max-width: 901px){
+    .menuone ul li {
+      font-size: 1.1rem;
+    }
+    .pagetwoimgone{
+      width: 65%;
+      margin-left: 1rem;
+    }
+    .pagetwoimgtwo{
+      margin-top: 4rem;
+      margin-left: -1.5rem;
+    }
+    .pagethreeimgtwo{
+      height: 50%;
+      object-fit: contain;
+    }
+    .pagefourp{
+      font-size: 4rem;
+     }
+     .pagefourimg{
+      height: 50vh;
+     }
+    .pagefiveverse{
+      font-size: 25px;
+     } 
+     .pagefiveimg{
+      height: 1000px;
+      margin-top: 1%;
+     }
+     #fphone{
+      font-size: 30px;
+     }
+    .pagesix p{
+      font-size: 60px;
+      margin-top: 30%;
+     }
+     .pagesix hr{
+      margin-top: 25%;
+     }
+     .pagesix img{
+      height: 50%;
+      margin-top: 18%;
+      
+     }
+     #pagefivesubmitbtn{
+      height: 5%;
+      font-size: 90%;
+      margin-top: 15%;
+    }
+    #pagefiveresetbtn{
+      height: 5%;
+      font-size: 90%;
+      margin-top: 15%;
+    }
+  }
+  @media (max-width: 700px){
+   
+    .menuone ul li {
+      font-size: .9rem;
+    text-indent: 10px;
+    }
+    .menuone{
+      width: 70%;
+      top: 5%;
+    }
+    .pagetwoimgone{
+      width: 65%;
+      margin-left: 1rem;
+    }
+    .pagetwoimgtwo{
+      margin-top: 3rem;
+      width: 25%;
+      margin-left: -1.5rem;
+    }
+    .pagethreeimgtwo{
+      height: 50%;
+      width: 40%;
+      object-fit: contain;
+      margin-top: 1%;
+    }
+    .pagefourp{
+      font-size: 3.5rem;
+     }
+     .pagefourimg{
+      height: 50vh;
+     }
+     .pagefive{
+      height: 100%;
+     }
+     .pagefiveimg{
+      height: 50%;
+      margin-top: 140%;
+      width: 100%;
+      margin-left: 0px;
+      padding: 0px;
+     }
+     .pagefiveverse{
+      font-size: 1.5rem;
+      width: 90%;
+     }
+      .pagefive hr{
+       left: 30%;
+      }
+     
+     .form1{
+      height: 40%;
+      width: 80%;
+     }
+     .form1 p{
+      height: 10%;
+      font-size: 2rem;
+     }
+     #fname{
+      font-size: 2rem;
+      height: 2rem;
+      top: 1%;
+     }
+    }  
+    
+     
+    
+
